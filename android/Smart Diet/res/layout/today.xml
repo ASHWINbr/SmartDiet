@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/today"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:shrinkColumns="*"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center_horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <!-- <TextView -->
+                <!-- android:id="@+id/day_timings" -->
+                <!-- android:layout_width="match_parent" -->
+                <!-- android:layout_height="wrap_content" -->
+                <!-- android:background="#D2691E" -->
+                <!-- android:gravity="center" -->
+                <!-- android:text="Timings" -->
+                <!-- android:textColor="#ffffff" -->
+                <!-- android:textSize="25dp" -->
+                <!-- android:textStyle="bold" /> -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Morning"
+                        android:textColor="#008000"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="57dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/morning"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="50dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Afternoon"
+                        android:textColor="#008000"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/afternoon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="72dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Evening"
+                        android:textColor="#008000"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="57dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/evening"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="53dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Night"
+                        android:textColor="#008000"
+                        android:textSize="20dp"
+                        android:textStyle="italic" />
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/night"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="110dp"
+                        android:text="0"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="40dp"
+                        android:text="Total Calories"
+                        android:textColor="#000000"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="1dp" />
+
+                    <TextView
+                        android:id="@+id/total"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="35dp"
+                        android:text="0"
+                        android:textColor="#C71585"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="20dp"
+                        android:layout_height="1dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

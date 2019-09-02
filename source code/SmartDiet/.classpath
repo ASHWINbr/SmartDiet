@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="lib" path="WebRoot/jars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/hibernate-4.2.0.M1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/hibernate-commons-annotations-3.2.0.Final.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/hibernate-commons-annotations-4.0.2.Final.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/hibernate-core-3.6.7.Final.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/hibernate-core-4.2.15.Final.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/hibernate-entitymanager-4.2.15.Final.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/slf4j-api-1.7.12.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/jms-1.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/javassist.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jars/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar1/json-simple.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/httpasyncclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/httpcore-4.4.8.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/httpcore-nio-4.4.9.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/org.json.jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar2/unirest-java-1.4.9 .jar"/>
+	<classpathentry kind="lib" path="WebRoot/jar1/jutils-2.3.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

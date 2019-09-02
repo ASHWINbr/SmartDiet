@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>controller.Register</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DietPlan</servlet-name>
+    <servlet-class>controller.DietPlan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ViewDiet</servlet-name>
+    <servlet-class>controller.ViewDiet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Api</servlet-name>
+    <servlet-class>controller.Api</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>BarCoder</servlet-name>
+    <servlet-class>controller.BarCoder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DietDetails</servlet-name>
+    <servlet-class>controller.DietDetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DateView</servlet-name>
+    <servlet-class>controller.DateView</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TodayDiet</servlet-name>
+    <servlet-class>controller.TodayDiet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SaveDietInformation</servlet-name>
+    <servlet-class>controller.SaveDietInformation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodData</servlet-name>
+    <servlet-class>controller.FoodData</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodCalculation</servlet-name>
+    <servlet-class>controller.FoodCalculation</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodStore</servlet-name>
+    <servlet-class>controller.FoodStore</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DateViewTime</servlet-name>
+    <servlet-class>controller.DateViewTime</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DietReader</servlet-name>
+    <servlet-class>controller.DietReader</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DietPlan</servlet-name>
+    <url-pattern>/DietPlan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ViewDiet</servlet-name>
+    <url-pattern>/ViewDiet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Api</servlet-name>
+    <url-pattern>/Api</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BarCoder</servlet-name>
+    <url-pattern>/BarCoder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DietDetails</servlet-name>
+    <url-pattern>/DietDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DateView</servlet-name>
+    <url-pattern>/DateView</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TodayDiet</servlet-name>
+    <url-pattern>/TodayDiet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveDietInformation</servlet-name>
+    <url-pattern>/SaveDietInformation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodData</servlet-name>
+    <url-pattern>/FoodData</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodCalculation</servlet-name>
+    <url-pattern>/FoodCalculation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodStore</servlet-name>
+    <url-pattern>/FoodStore</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DateViewTime</servlet-name>
+    <url-pattern>/DateViewTime</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DietReader</servlet-name>
+    <url-pattern>/DietReader</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

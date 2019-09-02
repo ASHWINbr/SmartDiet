@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/adddiet"
+        android:orderInCategory="100"
+        android:title="Body Profile"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/viewdiet"
+        android:orderInCategory="100"
+        android:title="BMI"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/today_chart"
+        android:orderInCategory="100"
+        android:title="Today's Nutrition"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/workouts"
+        android:orderInCategory="100"
+        android:title="Workouts"
+        app:showAsAction="never"/>
+<!--      <item -->
+<!--         android:id="@+id/fooddata" -->
+<!--         android:orderInCategory="100" -->
+<!--         android:title="Diet Plan" -->
+<!--         app:showAsAction="never"/> -->
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+</menu>

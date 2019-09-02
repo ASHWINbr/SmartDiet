@@ -1,0 +1,32 @@
+@light
+1.squats=15 reps-3sets.
+2.pushups=15 reps-3sets.                             
+3.jumping jacks=20reps-5sets.         
+WEEKLYONCE-CRUNCHES 20 REPS 3 SETS
+ INCREASE 5-10 REPS/SET AFTER EVERY WEEK
+
+@moderate
+1.pushups=15 reps-3sets.
+2.pullups=10 reps-2 sets.
+3.burpees=10 reps-3 sets.
+4.mountain climbers=20 reps-3 sets.            
+5.squats=100 reps.
+    							 INCREASE 5-10 reps/set after every week.
+
+@active(low-intenship)
+1.push-ups-20reps-3sets.
+2.pull-ups-10reps-3sets.
+3.squarts-25reps-4sets.
+4.glute briidge-25reps-3sets.
+5.lungbies-20reps-3sets.            
+6.reverse grip pull-ups-10reps-2sets.
+7.crunches-25reps-3sets.
+
+@very brisk(high-intensity)	
+1.push-ups-20reps-3sets.            
+2.pull-ups-10reps-3sets.       
+3.tricep clips-15reps-2sets.             
+4.closedrip pushups-10reps-5sets.           
+5.10MIN JUMPING JACK           
+eachmin=20sec jumping jack-10sec rest. 
+20sec jumping jack-10sec rest.
